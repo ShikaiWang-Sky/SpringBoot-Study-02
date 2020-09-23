@@ -1,0 +1,200 @@
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10001,procId-54} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10002,procId-55} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10003,procId-56} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10004,procId-57} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005,procId-58} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, stmt-20000} created
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, stmt-20000, rs-50000} query executed. 52.6513 millis. select * from user
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} open
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Header: [id, name, pwd]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [1, 张三, 123456]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [2, 李四, 456789]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [3, 王五, 345678]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} Result: [4, 王麻子, 123456789]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, stmt-20000, rs-50000} closed
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, stmt-20000} closed
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10001,procId-62} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10002,procId-63} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10003,procId-64} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10004,procId-65} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005,procId-66} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20000} created. select *
+        from user;
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 11.7342 millis. select *
+        from user;
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, name, pwd]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 123456]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, 李四, 456789]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, 王五, 345678]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [4, 王麻子, 123456789]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10001,procId-67} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10002,procId-68} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10003,procId-69} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10004,procId-70} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005,procId-71} connected
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20000} created. select *
+        from user;
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : []
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20000} Types : []
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20000} executed. 6.7098 millis. select *
+        from user;
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, name, pwd]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, 张三, 123456]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [2, 李四, 456789]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [3, 王五, 345678]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [4, 王麻子, 123456789]
+[DEBUG][20-09-22][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20001} created. insert into user (id, name, pwd)
+        VALUES (?, ?, ?);
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : [6, 小明, 123456]
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20001} Types : [INTEGER, VARCHAR, VARCHAR]
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20001} executed. 13.3689 millis. insert into user (id, name, pwd)
+        VALUES (?, ?, ?);
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20001} Parameters : [6, 小明, 123456]
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20001} Types : [INTEGER, VARCHAR, VARCHAR]
+[ERROR][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20001} execute error. insert into user (id, name, pwd)
+        VALUES (?, ?, ?);
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '6' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3461)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_execute(WallFilter.java:624)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy53.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy54.addUser(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy55.addUser(Unknown Source)
+	at com.wang.controller.UserController.addUser(UserController.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20001} clearParameters. 
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20001} closed
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20002} created. update user
+        set name = ?,
+            pwd  = ?
+        where id = ?;
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20002} Parameters : [小明2, 654321, 6]
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20002} Types : [VARCHAR, VARCHAR, INTEGER]
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20002} executed. 10.6869 millis. update user
+        set name = ?,
+            pwd  = ?
+        where id = ?;
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20002} clearParameters. 
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20003} created. delete
+        from user
+        where id = ?;
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20003} Parameters : [6]
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20003} Types : [INTEGER]
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20003} executed. 4.8177 millis. delete
+        from user
+        where id = ?;
+[DEBUG][20-09-22][druid.sql.Statement]{conn-10005, pstmt-20003} clearParameters. 
+[DEBUG][20-09-22][druid.sql.Connection]{conn-10005} pool-recycle
